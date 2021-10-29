@@ -31,25 +31,25 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav m-auto">
                         <li class="nav-item ">
-                            <a class="nav-link active" href="#">Home</span></a>
+                            <a class="nav-link active" href="index.html">Home</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our Specialist</a>
+                            <a class="nav-link" href="#specialist">Our Specialist</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
                     <div class="form-inline my-2 my-lg-0">
-                        <a href="#" class="main-btn pulse-grow-on-hover first-btn">Looking To Hire?</a>
-                        <a href="#" class="main-btn pulse-grow-on-hover">Looking To Work?</a>
+                        <a id="p1" class="main-btn pulse-grow-on-hover first-btn">Looking To Hire?</a>
+                        <a id="p2" class="main-btn pulse-grow-on-hover class2">Looking To Work?</a>
                     </div>
                 </div>
             </nav>
@@ -66,8 +66,8 @@
                             Join our network today</h2>
 
                         <div class="banner-btn-wrapper">
-                            <a href="#" class="banner-btn first-btn">Looking To Hire?</a>
-                            <a href="#" class="banner-btn">Looking To Work?</a>
+                            <a id="p3" href="#" class="banner-btn first-btn class3">Looking To Hire?</a>
+                            <a id="p4" href="#" class="banner-btn class4">Looking To Work?</a>
                         </div>
 
                         <div class="input-wrapper">
@@ -76,7 +76,7 @@
                                 <input type="text" placeholder="City, State, or Zip">
                                 <input type="text" size="4" autocomplete="on" name="sector" list="sector"
                                     placeholder="Select Sector">
-                                <button class="search-btn" type="submit"><i class="fa fa-search"></i></button>
+                                <button onclick="window.open('#','_blank')" class="search-btn" type="submit"><i class="fa fa-search"></i></button>
 
                             </div>
                             <datalist class="scroll" id="sector">
@@ -101,7 +101,7 @@
         </section>
 
 
-        <section class="our-specialist">
+        <section class="our-specialist" id="specialist">
             <div class="container">
                 <div class="row">
                     <div class="col-md-7">
@@ -147,7 +147,7 @@
                 <div class="section-title">
                     <h1 class="heading-title">What We Do</h1>
                 </div>
-                <div class="do-box-wrapper" style="margin-top: 50px;">
+                <div class="do-box-wrapper" style="padding-top: 50px;">
                     <div class="do-box-left">
                         <img class="img-fluid shake" src="images/do1.png" alt="" srcset="">
                     </div>
@@ -186,8 +186,8 @@
 
                             </div>
                             <div class="get-touch">
-                                GET IN <br>
-                                TOUCH
+                                GET IN 
+                                <span>TOUCH</span>
                             </div>
 
                             <div class="contact-bottom">
@@ -249,10 +249,10 @@
                                 </div>
 
                                 <div class="social-icon">
-                                    <i class="fab fa-facebook-f"></i>
-                                    <i class="fab fa-twitter"></i>
+                                    <a href="#" ><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" ><i class="fab fa-twitter"></i></a>
 
-                                    <i class="fab fa-instagram"></i>
+                                    <a href="#" ><i class="fab fa-instagram"></i></a>
                                 </div>
 
                             </div>
@@ -261,30 +261,102 @@
                 </div>
             </div>
         </section>
-
-
-        <footer>
-            <h1>This is Footer</h1>
-        </footer>
-
-
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, sapiente placeat! Possimus delectus minus
-            numquam incidunt, nobis, quod consequatur voluptatem dolores cupiditate nemo deserunt quibusdam eum
-            perspiciatis accusantium ipsum error, repellendus id odio dolor omnis praesentium unde recusandae quasi.
-            Quos corporis unde cupiditate repellendus vel quasi debitis reprehenderit tenetur necessitatibus atque autem
-            numquam quod blanditiis, sapiente aspernatur molestias in dicta pariatur sed. Harum culpa repudiandae
-            officia quibusdam consequuntur, animi praesentium. Officiis fugit nam aliquam sapiente odio illum, est
-            inventore dolorem officia maiores iure. Enim tempora est iusto tempore voluptate ullam ab labore officiis!
-            Suscipit, vitae dolore. Ducimus sunt autem expedita.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, sapiente placeat! Possimus delectus minus
-            numquam incidunt, nobis, quod consequatur voluptatem dolores cupiditate nemo deserunt quibusdam eum
-            perspiciatis accusantium ipsum error, repellendus id odio dolor omnis praesentium unde recusandae quasi.
-            Quos corporis unde cupiditate repellendus vel quasi debitis reprehenderit tenetur necessitatibus atque autem
-            numquam quod blanditiis, sapiente aspernatur molestias in dicta pariatur sed. Harum culpa repudiandae
-            officia quibusdam consequuntur, animi praesentium. Officiis fugit nam aliquam sapiente odio illum, est
-            inventore dolorem officia maiores iure. Enim tempora est iusto tempore voluptate ullam ab labore officiis!
-            Suscipit, vitae dolore. Ducimus sunt autem expedita.</p>
     </main>
+
+    <footer class="footer">
+        <div class="footer-overlay">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="footer-left">
+                            <h5>DIFFERENCE STAFFING</h5>
+                            <div class="footer-left-wrapper">
+                                <div class="footer-left-box">
+                                    <div class="icons">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="footer-box-right">
+                                        <span class="footer-item-heading">Email Address</span>
+                                        <span class="footer-text">contact@differencestaffing.com</span>
+                                    </div>
+
+                                </div>
+                                <div class="footer-left-box">
+                                    <div class="icons">
+                                        <i class="fas fa-phone-alt"></i>
+                                    </div>
+
+                                    <div class="footer-box-right">
+                                        <span class="footer-item-heading">Call Us</span>
+                                        <span class="footer-text">+1-888-907-4053</span>
+                                    </div>
+
+                                </div>
+
+                                <div class="footer-left-box">
+                                    <div class="icons">
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </div>
+
+                                    <div class="footer-box-right">
+                                        <span class="footer-item-heading">Address</span>
+                                        <span class="footer-text">101 North Tryon Street Suite 112-1583 Charlotte,
+                                            NC
+                                            28246</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer-middle">
+                            <p>Difference Staffing is one of the Newest based staffing organizations, & has
+                                something to prove.
+                                Consumer loyalty, along with reliable nature of administration is the establishment
+                                of our organization</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+
+                        <div class="footer-social-icon">
+                            <div class="footer-social-icon">
+                                <a href="#" ><i class="fab fa-instagram"></i></a>
+                                <a href="#" ><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" ><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="popup-card">
+        <div class="popup-bg">
+            <div class="popup-card-header">
+                <i class="fas fa-times close"></i>
+            </div>
+
+            <div class="popup-card-body">
+                <h2>LOOKING TO WORK?</h2>
+                <p>Fill in the form below correctly and we would contact you as soon as possible</p>
+                <div class="form">
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Job Position">
+                    <textarea type="text" placeholder="Tell us about yourself"></textarea>
+
+                    <div class="pop-btn-wrapper">
+                        <button class="pop-send-btn"> <i class="fas fa-envelope"></i> SEND</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="overlay"></div>
 
 
 
